@@ -1,0 +1,35 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+thead th {
+    background-color: #f4f4f4;
+    font-weight: 500;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
