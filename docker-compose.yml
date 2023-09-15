@@ -3,13 +3,12 @@ services:
   db:
     image: mysql:latest
     ports:
-      - 3355:3306
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: 2304
       MYSQL_DATABASE: mydb
       MYSQL_USER: togrulm
       MYSQL_PASSWORD: 2304
     volumes:
-      - ./db:/var/lib/mysql
       - ./initdb:/docker-entrypoint-initdb.d
     command: --init-file /docker-entrypoint-initdb.d/init.sql
